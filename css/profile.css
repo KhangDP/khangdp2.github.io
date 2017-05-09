@@ -1,0 +1,27 @@
+.menu a{
+	transition: 0.3s;
+}
+.introduce{
+	animation: introduceshow 1s forwards;
+	animation-delay:0.5s;
+    opacity:0;
+}
+@-webkit-keyframes introduceshow{
+	from{opacity:0;transform:translateY(-200px)}
+	to{opacity:1;transform:translateY(0px)}
+}
+.experience_01,.experience_to,.experience_02{
+	opacity:0;
+}
+@-webkit-keyframes experience01{
+	from{opacity:0}
+	to{opacity:1}
+}
+@-webkit-keyframes experienceto{
+	from{opacity:0}
+	to{opacity:1}
+}
+@-webkit-keyframes experience02{
+	from{opacity:0}
+	to{opacity:1}
+}
